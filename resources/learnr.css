@@ -1,0 +1,75 @@
+/*
+    CSS added to LearnR for the login page.
+ */
+
+$educ-login-small-size: 0.95em;
+
+#page-login-index {
+
+    .login-container {
+
+        .loginform  {
+
+            display: flex;
+            flex-direction: column;
+
+            #loginlogo {
+                order: -100;
+            }
+
+            .login-identityproviders {
+                order: -50;
+                border-bottom: 1px solid #dee2e6;
+                padding-bottom: 1rem;
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+
+                .login-heading {
+                    font-weight: bold;
+                    text-align: left;
+                    font-size: $h2-font-size;
+                }
+            }
+
+            .d-flex {
+                button {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .login-heading {
+                font-weight: normal;
+                text-align: center;
+                font-size: $educ-login-small-size;
+            }
+
+            .login-divider {
+                display: none;
+            }
+
+            .login-form {
+                padding-bottom: 1rem;
+                margin-bottom: 1rem;
+
+                input, #loginbtn {
+                    font-size: $educ-login-small-size;
+                }
+            }
+
+            #guestlogin {
+                padding-bottom: 1rem;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+
+            #login {
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+
