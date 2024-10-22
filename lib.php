@@ -54,10 +54,20 @@ document.addEventListener('DOMContentLoaded', (e) => {
         if (!loginform) {
             return;
         }
-        
+
+        loginform.classList.add("hidden");
+
+        let a = document.createElement("a");
+        a.textContent = $title;
+        a.setAttribute("href", "#");
+        a.addEventListener("click", (e) => {
+            loginform.classList.toggle("hidden");
+        });
+
         let title = document.createElement('h2');
         title.classList.add('login-heading');
-        title.textContent = $title;
+        title.classList.add('educ-login-heading');
+        title.appendChild(a);
         parent.insertBefore(title, loginform);
     } catch (e) {
     }

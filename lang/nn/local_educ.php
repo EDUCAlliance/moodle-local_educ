@@ -17,4 +17,4 @@
 // Language strings for loginusingvisitoraccount
 defined('MOODLE_INTERNAL') || die;
 
-$string['loginusingvisitoraccount'] = 'Logg inn med din besøkskonto';
+$string['loginusingvisitoraccount'] = 'eller logg inn med din besøkskonto';

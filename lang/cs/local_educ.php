@@ -17,4 +17,4 @@
 // Language strings for loginusingvisitoraccount
 defined('MOODLE_INTERNAL') || die;
 
-$string['loginusingvisitoraccount'] = 'Přihlaste se pomocí účtu návštěvníka';
+$string['loginusingvisitoraccount'] = 'nebo se přihlaste pomocí účtu návštěvníka.';

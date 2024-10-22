@@ -18,4 +18,4 @@
 defined('MOODLE_INTERNAL') || die;
 
 $string['pluginname'] = 'EDUC Customizations';
-$string['loginusingvisitoraccount'] = 'Log in using your visitor account';
+$string['loginusingvisitoraccount'] = 'or log in using your visitor account';

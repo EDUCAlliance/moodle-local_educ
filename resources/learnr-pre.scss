@@ -1,0 +1,207 @@
+/*changes login button shibboleth*/
+
+.login-container .login-identityproviders .login-identityprovider-btn {
+  border: 2px solid #dee2e6;
+  padding: 1rem;
+  background-color: #28be7f !important;
+  color: white;
+  font-size: x-large;
+}
+
+/*bigger Log in button */
+
+.login a {
+  color: white !important;
+  font-size: xx-large;
+  background-color: #28be7f;
+  border-radius: 10px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* customization of Tiles */
+
+.format-tiles .course-content li.activity.label h1, .format-tiles .course-content .section li.activity.label h2, .format-tiles .course-content li.activity.label h3, .format-tiles .course-content li.activity.label h4, .format-tiles .editor_atto_content_wrap h1, .format-tiles .editor_atto_content_wrap h2, .format-tiles .editor_atto_content_wrap h3, .format-tiles .editor_atto_content_wrap h4 {
+  border-left-color: rgba(40,190,127, 1);
+  border-left-style: hidden !important;
+  padding-left: 0em !important;
+  border-left-width: 0px !important;
+}
+
+/* Atto Editors' Setting for Styles */
+/* C4L*/
+
+/* Key concept */
+
+.c4l-keyconcept-purple,
+.c4lv-keyconcept-purple {
+  min-width: 200px;
+  max-width: 99%;
+  background-color: #f2edfa;
+  padding: 24px 36px 30px 36px;
+  border: none;
+  border-left: 6px solid #9d76e5;
+  margin: 36px auto;
+  position: relative;
+  border-radius: 0;
+  color: #9d76e5;
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+/* Tip */
+
+.c4l-tip,
+.c4lv-tip {
+  min-width: 200px;
+  max-width: 99%;
+  background-color: #ffeeeb;
+  padding: 24px 48px 30px 36px;
+  border: none;
+  border-left: 6px solid #ff9880;
+  margin: 36px auto;
+  position: relative;
+  border-radius: 0;
+  color: #ff9880;
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &::after {
+    content: '\f0eb';
+    font: var(--fa-font-regular);
+    font-size: 30px;
+    color: #ff9880;
+    position: absolute;
+    top: 6px;
+    right: -3px;
+  }
+}
+
+
+.attostylesbox {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%
+}
+.attostylesbox.attostylesbox-solid {
+  color: white !important;
+}
+.attostylesbox.attostylesbox-outline {
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+.attostylesbox.attostylesbox-callout {
+  background-color: white;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+}
+/*  for compatibility with Moodle 3.11 */
+.attostylesbox.attostylesbox-solid-blue {
+  background-color: #9d76e5;
+}
+.attostylesbox.attostylesbox-solid-yellow {
+  background-color: #ff9880;
+}
+.attostylesbox.attostylesbox-solid-red {
+  background-color: #f96e99;
+}
+.attostylesbox.attostylesbox-outline-blue {
+  border-color: #9d76e5;
+  color: #9d76e5;
+}
+.attostylesbox.attostylesbox-outline-yellow {
+  border-color: #ff9880;
+  color: #ff9880;
+}
+.attostylesbox.attostylesbox-outline-red {
+  border-color: #f96e99;
+  color: #f96e99;
+}
+.attostylesbox.attostylesbox-callout-blue {
+  border-left-color: #9d76e5;
+}
+.attostylesbox.attostylesbox-callout-yellow {
+  border-left-color: #ff9880;
+}
+.attostylesbox.attostylesbox-callout-red {
+  border-left-color: #f96e99;
+}
+.attostylestextmarker.attostylestextmarker-yellow {
+  background: #ffc1b3;
+}
+/* new setting with correct names */
+.attostylesbox.attostylesbox-solid-purple {
+  background-color: #9d76e5;
+}
+
+.attostylesbox.attostylesbox-solid-green {
+  background-color: #28be7f;
+}
+.attostylesbox.attostylesbox-solid-orange {
+  background-color: #ff9880;
+}
+.attostylesbox.attostylesbox-solid-pink {
+  background-color: #f96e99;
+}
+.attostylesbox.attostylesbox-solid-black {
+  background-color: #3d3d3b;
+}
+.attostylesbox.attostylesbox-outline-purple {
+  border-color: #9d76e5;
+  color: #9d76e5;
+}
+.attostylesbox.attostylesbox-outline-green {
+  border-color: #28be7f;
+  color: #28be7f;
+}
+.attostylesbox.attostylesbox-outline-orange {
+  border-color: #ff9880;
+  color: #ff9880;
+}
+.attostylesbox.attostylesbox-outline-pink {
+  border-color: #f96e99;
+  color: #f96e99;
+}
+.attostylesbox.attostylesbox-outline-black {
+  border-color: #3d3d3b;
+  color: #3d3d3b;
+}
+.attostylesbox.attostylesbox-callout-purple {
+  border-left-color: #9d76e5;
+}
+.attostylesbox.attostylesbox-callout-green {
+  border-left-color: #28be7f;
+}
+.attostylesbox.attostylesbox-callout-orange {
+  border-left-color: #ff9880;
+}
+.attostylesbox.attostylesbox-callout-pink {
+  border-left-color: #f96e99;
+}
+.attostylesbox.attostylesbox-callout-black {
+  border-left-color: #3d3d3b;
+}
+.attostylestextmarker {
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.attostylestextmarker.attostylestextmarker-green {
+  background: #d5f6e8;
+}
+.attostylestextmarker.attostylestextmarker-pink {
+  background: #fcb6cc;
+}
+.attostylestextmarker.attostylestextmarker-orange {
+  background: #ffc1b3;
+}
+.attostylestextmarker.attostylestextmarker-purple {
+  background: #d1bff3;
+}

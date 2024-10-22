@@ -17,4 +17,4 @@
 // Language strings for loginusingvisitoraccount
 defined('MOODLE_INTERNAL') || die;
 
-$string['loginusingvisitoraccount'] = 'Inicie sesión con su cuenta de visitante';
+$string['loginusingvisitoraccount'] = 'o inicie sesión con su cuenta de visitante';

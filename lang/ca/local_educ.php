@@ -18,4 +18,4 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$string['loginusingvisitoraccount'] = 'Inicieu sessió amb el vostre compte de visitant';
+$string['loginusingvisitoraccount'] = 'o inicieu sessió amb el vostre compte de visitant';

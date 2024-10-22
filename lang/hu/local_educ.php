@@ -17,4 +17,4 @@
 // Language strings for loginusingvisitoraccount
 defined('MOODLE_INTERNAL') || die;
 
-$string['loginusingvisitoraccount'] = 'Jelentkezzen be a látogatói fiókjával';
+$string['loginusingvisitoraccount'] = 'o jelentkezzen be a látogatói fiókjával';

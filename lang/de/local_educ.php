@@ -17,4 +17,4 @@
 // Language strings for loginusingvisitoraccount
 defined('MOODLE_INTERNAL') || die;
 
-$string['loginusingvisitoraccount'] = 'Melden Sie sich mit Ihrem Besucher-Account an';
+$string['loginusingvisitoraccount'] = 'oder melden Sie sich mit Ihrem Besucher-Account an';
