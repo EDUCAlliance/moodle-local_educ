@@ -1,5 +1,31 @@
 $educ-login-small-size: 0.95em;
 
+#page-site-index {
+    #usernavigation {
+        .login {
+            a {
+                border: 1px solid #2e624d;
+                opacity: 0.8;
+
+                &:focus {
+                    background-color: #28be7f;
+                    box-shadow: none;
+                    border: 1px solid #000;
+                    opacity: 1;
+                }
+                &:hover {
+                    opacity: 1;
+                }
+                &:active {
+                    box-shadow: none;
+                    opacity: 1;
+                }
+            }
+
+        }
+    }
+}
+
 #page-login-index {
 
     .login-container {
