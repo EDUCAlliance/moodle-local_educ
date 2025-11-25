@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2024110300;
-$plugin->requires = 2022112800;
+$plugin->version = 2025112502;
+$plugin->requires = 2024100700;
 $plugin->component = 'local_educ';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->supported = [401, 401];
-$plugin->release = 'v1.0.2';
+$plugin->supported = [405, 405];
+$plugin->release = 'v1.1.0';
 
