@@ -77,7 +77,7 @@ class hook_manager {
             title.classList.add('educ-login-heading');
             title.appendChild(a);
 
-            let parent = document.getElementById("theme_boost_union-loginorder-local");
+            let parent = document.getElementById("login-method-local");
             
             parent.insertBefore(title, loginform);                            
         } catch (e) {

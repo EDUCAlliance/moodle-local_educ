@@ -25,10 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2025112502;
+$plugin->version = 2026082401;
 $plugin->requires = 2024100700;
 $plugin->component = 'local_educ';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->supported = [405, 405];
 $plugin->release = 'v1.1.0';
+$plugin->dependencies = ['theme_boost_union' => 2024100796];
 
