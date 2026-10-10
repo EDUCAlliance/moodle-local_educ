@@ -69,5 +69,12 @@ function local_educ_extend_auth_saml2_proc(): array {
             'pattern' => '/^$/',
             '%remove',
         ],
+        // The IdP may release several "mail" values, which auth_saml2 would
+        // implode into the email field. Keep just the first one, in place, so
+        // the existing "mail" mapping and the email-taken checks see it too.
+        70 => [
+            'class' => 'core:CardinalitySingle',
+            'firstValue' => ['mail'],
+        ],
     ];
 }

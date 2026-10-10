@@ -27,3 +27,11 @@ SAML2 > Data mapping > Institution* set:
 * **Data field**: `institution`
 * **Update local**: `On every login` (or `On creation` if it should only be set
   for new users)
+
+## SAML2 email
+
+The IdP may also release several values in the `mail` attribute
+(`urn:oid:0.9.2342.19200300.100.1.3`), which `auth_saml2` would implode into
+the user's email. A `core:CardinalitySingle` filter (priority 70) collapses
+`mail` to its first value in place, so the usual `mail` mapping in *Data
+mapping > Email address* keeps working unchanged.
